@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess Learning Plan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>♟️ Interactive Chess Learning Plan</h1>
+
+  <!-- Part 1: CSS Animated Button -->
+  <button class="fancy-btn">Start Learning</button>
+
+  <!-- Part 2 + 3: Interactive Chess Plan -->
+  <div class="lesson-card" id="lessonCard">Opening Principles</div>
+  <button onclick="flipLesson()">Next Lesson</button>
+
+  <!-- Quiz Form -->
+  <form id="quizForm">
+    <h2>Quick Chess Quiz</h2>
+    <label>What is the most important opening principle?</label>
+    <input type="text" id="answer" placeholder="Type your answer...">
+    <button type="submit">Check Answer</button>
+    <p id="quizMessage"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
